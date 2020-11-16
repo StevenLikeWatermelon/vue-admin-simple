@@ -7,7 +7,7 @@
 
 <script>
 
-import { isExternal } from 'el-utils'
+import { isExternal } from '@/assets/js/utils'
 
 export default {
   name: 'SvgIcon',

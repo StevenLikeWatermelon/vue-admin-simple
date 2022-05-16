@@ -19,7 +19,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
-import { Scrollbar } from 'el-element-ui'
+import { Scrollbar } from 'element-ui'
 import SidebarItem from './SidebarItem'
 import variables from '@/styles/variables.scss'
 

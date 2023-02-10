@@ -1,15 +1,20 @@
 <template>
-  <div>
-    attr
+  <div id="app">
+    <datav />
   </div>
 </template>
 
 <script>
-export default {
+import datav from './components/datav/index.vue'
 
+export default {
+  name: 'Demo2',
+  components: {
+    datav
+  },
+  data() {
+    return {}
+  }
 }
 </script>
 
-<style>
-
-</style>

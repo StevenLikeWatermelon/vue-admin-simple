@@ -25,33 +25,27 @@ const routes = [
         path: 'attr',
         name: 'attr',
         component: () => import('@/views/attr/index'),
-        meta: { title: 'page1', icon: 'form' }
+        meta: { title: '动态轨迹', icon: 'form' }
       }
     ]
   },
   {
-    path: '/type',
-    component: Layout,
-    children: [
-      {
-        path: 'type',
-        name: 'type',
-        component: () => import('@/views/type/index'),
-        meta: { title: 'page2', icon: 'form' }
-      }
-    ]
+    path: '/demo1',
+    name: 'demo1',
+    hidden: true,
+    component: () => import('@/views/type/index')
   },
   {
-    path: '/origin',
-    component: Layout,
-    children: [
-      {
-        path: 'origin',
-        name: 'origin',
-        component: () => import('@/views/origin/index'),
-        meta: { title: 'page3', icon: 'form' }
-      }
-    ]
+    path: '/demo2',
+    name: 'demo2',
+    hidden: true,
+    component: () => import('@/views/origin/index')
+  },
+  {
+    path: '/demo3',
+    name: 'demo3',
+    hidden: true,
+    component: () => import('@/views/review/index')
   },
   {
     path: '/404',
